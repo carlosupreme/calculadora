@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>CALCULADORA</h1>
+            <a href="https://github.com/carlosupreme" target="blank">By Carlos Sosa</a>
+        </nav>
+    </header>
+    <main>
+        <section class="calculator-container">
+            <input type="text" placeholder="0" id="result" class="grid-item">
+            <button name="data-borrar" id="clear" class="grid-item">c</button>
+            <button id="historialbtn" class="grid-item">h</button>
+            <button name="data-operacion" id="mod" class="grid-item">%</button>
+            <button name="data-operacion" id="div" class="grid-item">÷</button>
+            <button name="data-number" id="siete" class="grid-item">7</button>
+            <button name="data-number" id="ocho" class="grid-item">8</button>
+            <button name="data-number" id="nueve" class="grid-item">9</button>
+            <button name="data-operacion" id="x" class="grid-item">x</button>
+            <button name="data-number" id="cuatro" class="grid-item">4</button>
+            <button name="data-number" id="cinco" class="grid-item">5</button>
+            <button name="data-number" id="seis" class="grid-item">6</button>
+            <button name="data-operacion" id="mas" class="grid-item">+</button>
+            <button name="data-number" id="uno" class="grid-item">1</button>
+            <button name="data-number" id="dos" class="grid-item">2</button>
+            <button name="data-number" id="tres" class="grid-item">3</button>
+            <button name="data-operacion" id="menos" class="grid-item">-</button>
+            <button name="data-number" id="cero" class="grid-item">0</button>
+            <!-- <button id="punto" class="grid-item">.</button> -->
+            <button name="data-igual"id="igual" class="grid-item">=</button>
+
+        </section>
+        <section class="historial-container">
+            <div class="historial-titulo">
+                <h2>Historial</h2>
+                <span id="borrarHistorial" >Borrar</span>
+            </div>
+            <ul id="caja" class="caja-historial">
+            </ul>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
